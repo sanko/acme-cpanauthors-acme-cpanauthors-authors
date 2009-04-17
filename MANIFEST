@@ -1,0 +1,15 @@
+.gitignore
+Build.PL
+Changes
+lib/Acme/CPANAuthors/Acme/CPANAuthors/Authors.pm
+LICENSE
+Makefile.PL
+MANIFEST			This list of files
+META.yml
+README
+scripts/author_info.pl
+scripts/basic_info.pl
+t/00-load.t
+t/01-misc.t
+t/90-pod.t
+t/91-pod-coverage.t

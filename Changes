@@ -1,0 +1,23 @@
+Revision history for Acme-CPANAuthors-Acme-CPANAuthors-Authors
+
+Version 0.1239933158 | Thursday, April 16th 2009, 21:52:38 ET
+
+  - Luis Azevedo (BRACETA) for A::C::Portuguese
+  - Last commit before moving to github (unless I get distracted and forget)
+
+Version 0.1234907192 | Tuesday February 17th 2009, 16:46:32 ET
+
+  - Vincent Pit (VPIT) for A::C::You're_using
+    + Nice use of the old perl4 separator
+
+Version 0.1234567890 | Friday, February 13th 2009, 23:31:30 UTC
+
+  - ACACA exists!
+  - 15 authors
+  - Released at UNIX epoch 1234567890 ...give or take.
+
+_ -.-. .... .- -. --. . ... _________________________________________
+For more information, sift through the commit logs:
+    http://code.google.com/p/sanko/source/list
+
+$Date: 2009-04-16 21:59:57 -0400 (Thu, 16 Apr 2009) $

@@ -1,0 +1,12 @@
+*.bak
+
+Build
+Build.bat
+_build/*
+
+META.yml
+Makefile.PL
+MANIFEST.SKIP
+
+*.tar.gz
+
