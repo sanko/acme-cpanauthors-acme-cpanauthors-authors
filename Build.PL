@@ -36,15 +36,17 @@ my $builder = $class->new(
         generated_by => q[Conversion, software version 7.0],
         keywords  => [qw[Acme CPAN CPANAuthors Authors stupid vanity module]],
         resources => {
-            bugtracker => q[http://code.google.com/p/sanko/issues/list],
-            ChangeLog  => q[http://code.google.com/p/sanko/source/list],
+            bugtracker =>
+                q[http://github.com/sanko/acme-cpanauthors-acme-cpanauthors-authors/issues],
+            ChangeLog =>
+                q[http://github.com/sanko/acme-cpanauthors-acme-cpanauthors-authors/commits/master],
 
             #homepage  => q[http://sankorobinson.com/acaca/],
             license => q[http://www.perlfoundation.org/artistic_license_2_0],
 
             #MailingList => q[http://groups.google.com/group/net-bittorrent],
             repository =>
-                q[http://code.google.com/p/sanko/source/browse/#svn/trunk/Acme-CPANAuthors-Acme-CPANAuthors-Authors]
+                q[http://github.com/sanko/acme-cpanauthors-acme-cpanauthors-authors/tree]
         }
     },
 );

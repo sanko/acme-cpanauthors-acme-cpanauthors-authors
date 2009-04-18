@@ -4,9 +4,15 @@ Build
 Build.bat
 _build/*
 
+blib/*
+Acme-CPANAuthors-Acme-CPANAuthors-Authors-*/*
+
 META.yml
 Makefile.PL
 MANIFEST.SKIP
 
 *.tar.gz
 
+*.tmp
+
+commitlog.txt

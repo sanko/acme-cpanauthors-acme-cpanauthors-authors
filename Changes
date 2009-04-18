@@ -1,5 +1,10 @@
 Revision history for Acme-CPANAuthors-Acme-CPANAuthors-Authors
 
+Version 0.1240065387 | Saturday, April 18th 2009, 10:36:27 ET
+
+  - Burak Gürsoy (BURAK) for A::C::Turkish
+  - Issue tracker and repo now on github
+
 Version 0.1239933158 | Thursday, April 16th 2009, 21:52:38 ET
 
   - Luis Azevedo (BRACETA) for A::C::Portuguese
