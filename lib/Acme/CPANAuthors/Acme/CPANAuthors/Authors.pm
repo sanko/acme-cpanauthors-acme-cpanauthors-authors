@@ -12,6 +12,7 @@ our $VERSION = q[0.1240065387];
 use Acme::CPANAuthors::Register (
     ACALPINI  => q[Aldo Calpini], # A::C::Italian
     ASHLEY    => q[Ashley Pond V], # A::C::Misanthrope
+    BINGOS    => q[Chris Williams], # A::C::POE
     BRACETA   => q[Luís Azevedo], # A::C::Portuguese
     BURAK     => q[Burak Gürsoy], # A::C::Turkish
     FAYLAND   => q[Fayland 林], # A::C::Chinese
