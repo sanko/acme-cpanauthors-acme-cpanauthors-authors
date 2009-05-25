@@ -8,7 +8,7 @@ Acme::CPANAuthors::Acme::CPANAuthors::Authors - We are CPAN authors who have aut
 
 =cut
 
-our $VERSION = q[0.1240065387];
+our $VERSION = q[0.1243261776];
 use Acme::CPANAuthors::Register (
     ACALPINI  => q[Aldo Calpini], # A::C::Italian
     ASHLEY    => q[Ashley Pond V], # A::C::Misanthrope
