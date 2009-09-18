@@ -40,13 +40,9 @@ my $builder = $class->new(
                 q[http://github.com/sanko/acme-cpanauthors-acme-cpanauthors-authors/issues],
             ChangeLog =>
                 q[http://github.com/sanko/acme-cpanauthors-acme-cpanauthors-authors/commits/master],
-
-            #homepage  => q[http://sankorobinson.com/acaca/],
             license => q[http://www.perlfoundation.org/artistic_license_2_0],
-
-            #MailingList => q[http://groups.google.com/group/net-bittorrent],
             repository =>
-                q[http://github.com/sanko/acme-cpanauthors-acme-cpanauthors-authors/tree]
+                q[http://github.com/sanko/acme-cpanauthors-acme-cpanauthors-authors/]
         }
     },
 );
