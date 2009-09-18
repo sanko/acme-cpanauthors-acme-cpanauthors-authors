@@ -164,6 +164,4 @@ by the Creative Commons Attribution-Share Alike 3.0 License.  See
 http://creativecommons.org/licenses/by-sa/3.0/us/legalcode.  For
 clarification, see http://creativecommons.org/licenses/by-sa/3.0/us/.
 
-=for svn $Id: Authors.pm 10 2009-04-17 01:59:57Z sanko@cpan.org $
-
 =cut
