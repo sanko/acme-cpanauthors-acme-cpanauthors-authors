@@ -10,27 +10,30 @@ Acme::CPANAuthors::Acme::CPANAuthors::Authors - We are CPAN authors who have aut
 
 our $VERSION = q[0.1243261776];
 use Acme::CPANAuthors::Register (
-    ACALPINI  => q[Aldo Calpini], # A::C::Italian
-    ASHLEY    => q[Ashley Pond V], # A::C::Misanthrope
-    BINGOS    => q[Chris Williams], # A::C::POE
-    BRACETA   => q[Luís Azevedo], # A::C::Portuguese
-    BURAK     => q[Burak Gürsoy], # A::C::Turkish
-    FAYLAND   => q[Fayland 林], # A::C::Chinese
-    GARU      => q[Breno G. de Oliveira], # A::C::Brazilian
-    GUGOD     => q[劉康民], # A::C::Taiwanese
-    HINRIK    => q[Hinrik Örn Sigurðsson], # A::C::Icelandic
-    ISHIGAKI  => q[Kenichi Ishigaki], # The Original
-    KENTARO   => q[Kentaro Kuribayashi], # A::C::GeekHouse
-    MARCEL    => q[Marcel Grünauer == hanekomu], # A::C::Austrian
-    SANKO     => q[Sanko Robinson], # Hey, that's me!
-    SAPER     => q[Sébastien Aperghis-Tramoni], # A::C::French
-    SFINK     => q[Steve A Fink], # A::C::Not
-    SHARIFULN => q[Анатолий Шарифулин], # A::C::Russian
-    SHLOMIF   => q[Shlomi Fish], # A::C::Israeli
-    VPIT      => q[Vincent Pit], # A::C::You're_using
-    ZOFFIX    => q[Zoffix Znet] # A::C::Canadian
+    ACALPINI => q[Aldo Calpini],     # A::C::Italian
+    ASHLEY   => q[Ashley Pond V],    # A::C::Misanthrope
+    AZAWAWI =>
+        q[أحمد محمد زواوي - Ahmad M. Zawawi],    # A::C::Arabic
+    BINGOS    => q[Chris Williams],                       # A::C::POE
+    BRACETA   => q[Luís Azevedo],                        # A::C::Portuguese
+    BURAK     => q[Burak Gürsoy],                        # A::C::Turkish
+    FAYLAND   => q[Fayland 林],                          # A::C::Chinese
+    FLORA     => q[Florian Ragwitz],                      # A::C::German
+    GARU      => q[Breno G. de Oliveira],                 # A::C::Brazilian
+    GUGOD     => q[劉康民],                            # A::C::Taiwanese
+    HINRIK    => q[Hinrik Örn Sigurðsson],              # A::C::Icelandic
+    ISHIGAKI  => q[Kenichi Ishigaki],                     # The Original
+    KENTARO   => q[Kentaro Kuribayashi],                  # A::C::GeekHouse
+    MARCEL    => q[Marcel Grünauer == hanekomu],         # A::C::Austrian
+    MONS      => q[Mons Anderson],                        # A::C::AnyEvent
+    SANKO     => q[Sanko Robinson],                       # Hey, that's me!
+    SAPER     => q[Sébastien Aperghis-Tramoni],          # A::C::French
+    SFINK     => q[Steve A Fink],                         # A::C::Not
+    SHARIFULN => q[Анатолий Шарифулин],  # A::C::Russian
+    SHLOMIF   => q[Shlomi Fish],                          # A::C::Israeli
+    VPIT      => q[Vincent Pit],                          # A::C::You're_using
+    ZOFFIX    => q[Zoffix Znet]                           # A::C::Canadian
 );
-
 1;
 
 =head1 Synopsis

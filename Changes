@@ -1,5 +1,11 @@
 Revision history for Acme-CPANAuthors-Acme-CPANAuthors-Authors
 
+Version 0.1253301444 | Friday, Sep 18 15:17:24 2009 ET
+
+  - أحمد محمد زواوي - Ahmad M. Zawawi (AZAWAWI) for A::C::Arabic
+  - Florian Ragwitz (FLORA) for A::C::German
+  - Mons Anderson (MONS) for A::C::AnyEvent
+
 Version 0.1243261776 | Monday, May 25 10:29:36 2009 ET
 
   - Chris Williams (BINGOS) for A::C::POE
