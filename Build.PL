@@ -25,9 +25,9 @@ my $builder = $class->new(
     dist_author       => q[Sanko Robinson <sanko@cpan.org>],
     dist_version_from => q[lib/Acme/CPANAuthors/Acme/CPANAuthors/Authors.pm],
     requires          => {
-                 q[Acme::CPANAuthors]           => 0,
+                 q[Acme::CPANAuthors]           => 0.09,
                  q[Acme::CPANAuthors::Register] => 0,
-                 q[perl]                        => q[5.006]
+                 q[perl]                        => 5.006000
     },
     build_requires     => {q[Test::More] => 0},
     add_to_cleanup     => [q[Acme-CPANAuthors-Acme-CPANAuthors-Authors-*]],
