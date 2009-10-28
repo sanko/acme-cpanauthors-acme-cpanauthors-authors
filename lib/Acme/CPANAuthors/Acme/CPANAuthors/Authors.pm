@@ -7,9 +7,9 @@ use warnings;
 Acme::CPANAuthors::Acme::CPANAuthors::Authors - We are CPAN authors who have authored Acme::CPANAuthors modules
 
 =cut
-
-our $VERSION = q[0.1253301444];
+our $VERSION = q[0.1256760525];
 use Acme::CPANAuthors::Register (
+    ABIGAIL  => q[Abigail],          # A::C::Dutch ...or not.
     ACALPINI => q[Aldo Calpini],     # A::C::Italian
     ASHLEY   => q[Ashley Pond V],    # A::C::Misanthrope
     AZAWAWI =>
