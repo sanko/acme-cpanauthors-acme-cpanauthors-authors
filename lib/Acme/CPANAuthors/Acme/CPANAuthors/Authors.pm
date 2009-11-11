@@ -7,13 +7,14 @@ use warnings;
 Acme::CPANAuthors::Acme::CPANAuthors::Authors - We are CPAN authors who have authored Acme::CPANAuthors modules
 
 =cut
-our $VERSION = q[0.1256760525];
+our $VERSION = q[0.1257908313];
 use Acme::CPANAuthors::Register (
     ABIGAIL  => q[Abigail],          # A::C::Dutch ...or not.
     ACALPINI => q[Aldo Calpini],     # A::C::Italian
     ASHLEY   => q[Ashley Pond V],    # A::C::Misanthrope
     AZAWAWI =>
         q[أحمد محمد زواوي - Ahmad M. Zawawi],    # A::C::Arabic
+    BARBIE    => q[Barbie],  # A::C::British
     BINGOS    => q[Chris Williams],                       # A::C::POE
     BRACETA   => q[Luís Azevedo],                        # A::C::Portuguese
     BURAK     => q[Burak Gürsoy],                        # A::C::Turkish
