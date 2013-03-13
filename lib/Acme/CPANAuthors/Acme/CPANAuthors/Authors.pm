@@ -34,6 +34,7 @@ use Acme::CPANAuthors::Register (
     SHARIFULN => q[Анатолий Шарифулин],  # A::C::Russian
     SHARYANTO => q[Steven Haryanto],                      # A::C::Indonesian
     SHLOMIF   => q[Shlomi Fish],                          # A::C::Israeli
+    SROMANOV  => q[Сергей Романов],                       # A::C::Belarusian
     VPIT      => q[Vincent Pit],                          # A::C::You're_using
     ZOFFIX    => q[Zoffix Znet]                           # A::C::Canadian
 );
