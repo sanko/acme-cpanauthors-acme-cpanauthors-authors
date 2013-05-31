@@ -19,6 +19,7 @@ use Acme::CPANAuthors::Register (
     BINGOS    => q[Chris Williams],                       # A::C::POE
     BRACETA   => q[Luís Azevedo],                        # A::C::Portuguese
     BURAK     => q[Burak Gürsoy],                        # A::C::Turkish
+    ETHER     => q[Karen Etheridge],                      # A::C::Nonhuman
     FAYLAND   => q[Fayland 林],                          # A::C::Chinese
     FLORA     => q[Florian Ragwitz],                      # A::C::German
     GARU      => q[Breno G. de Oliveira],                 # A::C::Brazilian
