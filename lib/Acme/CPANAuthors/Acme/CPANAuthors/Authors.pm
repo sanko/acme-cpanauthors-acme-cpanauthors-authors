@@ -39,6 +39,49 @@ use Acme::CPANAuthors::Register (
     VPIT      => q[Vincent Pit],                          # A::C::You're_using
     ZOFFIX    => q[Zoffix Znet]                           # A::C::Canadian
 );
+
+sub _regen {
+    require HTTP::Tiny;
+    my $data    = '';
+    my $authsec = 0;
+    my %authors;
+    die "Failed\n"
+        unless HTTP::Tiny->new->request(
+        'GET',
+        'http://www.cpan.org/modules/02packages.details.txt',
+        {data_callback => sub {    # Don't scrape the whole file
+             my $chunk = shift;
+             if ($chunk =~ m[^Acme::CPANAuthors]sm) {
+                 $authsec++;
+                 $data .= $chunk;
+             }
+             elsif ($authsec) {    # No more Authors in 02packages
+                 while ($data
+                     =~ m[^(?:Acme::CPANAuthors(?:::(\S+))?).+\w/\w\w/(\w+)/.+$]mg
+                     )
+                 {   $authors{$2} //= [];
+                     push @{$authors{$2}}, $1;
+                 }
+                 my %old = authors();    # Current authors
+                 my @new = grep { defined $old{$_} ? () : $_ } keys %authors;
+                 print scalar(@new)
+                     . " new Acme::CPANAuthors authors to add\n";
+                 return if !@new;
+                 require MetaCPAN::API;
+                 my $mcpan = MetaCPAN::API->new();
+                 binmode(STDOUT, ':utf8');
+
+                 for my $id (sort @new) {
+                     my $author = $mcpan->author($id);
+                     printf "    %s => q[%s], # %s\n", $id, $author->{name},
+                         join ', ', map { 'A::C::' . $_ } @{$authors{$id}};
+                 }
+                 exit    # We're done
+             }
+             }
+        }
+        )->{success};
+}
 1;
 
 =head1 Synopsis
