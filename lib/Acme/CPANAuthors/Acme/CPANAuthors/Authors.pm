@@ -115,7 +115,7 @@ You can also look for information at:
 
 =item * Issue Tracker: Acme::CPANAuthors::Acme::CPANAuthors::Authors' bug tracker
 
-http://code.google.com/p/sanko/issues/list
+http://github.com/sanko/acme-cpanauthors-acme-cpanauthors-authors/issues/
 
 =item * AnnoCPAN: Annotated CPAN documentation
 
@@ -131,7 +131,7 @@ http://search.cpan.org/dist/Acme-CPANAuthors-Acme-CPANAuthors-Authors
 
 =item * Version Control Repository:
 
-http://code.google.com/p/sanko/source/browse/#svn/trunk/Acme-CPANAuthors-Acme-CPANAuthors-Authors
+http://github.com/sanko/acme-cpanauthors-acme-cpanauthors-authors/
 
 =back
 
@@ -156,7 +156,7 @@ CPAN ID: SANKO
 
 =head1 License and Legal
 
-Copyright (C) 2009 by Sanko Robinson E<lt>sanko@cpan.orgE<gt>
+Copyright (C) 2009-2013 by Sanko Robinson E<lt>sanko@cpan.orgE<gt>
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of The Artistic License 2.0.  See the F<LICENSE>
