@@ -8,7 +8,7 @@ Acme::CPANAuthors::Acme::CPANAuthors::Authors - We are CPAN authors who have aut
 
 =cut
 
-our $VERSION = q[0.1257908582];
+our $VERSION = q[1.0.0];
 use Acme::CPANAuthors::Register (
     ABIGAIL  => q[Abigail],          # A::C::Dutch ...or not.
     ACALPINI => q[Aldo Calpini],     # A::C::Italian
@@ -23,20 +23,29 @@ use Acme::CPANAuthors::Register (
     FAYLAND   => q[Fayland 林],                          # A::C::Chinese
     FLORA     => q[Florian Ragwitz],                      # A::C::German
     GARU      => q[Breno G. de Oliveira],                 # A::C::Brazilian
+    GRAY      => q[gray],                                 # A::C::GitHub
     GUGOD     => q[劉康民],                            # A::C::Taiwanese
     HINRIK    => q[Hinrik Örn Sigurðsson],              # A::C::Icelandic
     ISHIGAKI  => q[Kenichi Ishigaki],                     # The Original
+    JEEN      => q[Jeen Lee],                             # A::C::Korean
+    JLMARTIN  => q[Jose Luis Martinez Torres],            # A::C::Catalonian
+    KAARE     => q[Kaare Rasmussen],                      # A::C::Danish
     KENTARO   => q[Kentaro Kuribayashi],                  # A::C::GeekHouse
     MARCEL    => q[Marcel Grünauer == hanekomu],         # A::C::Austrian
     MONS      => q[Mons Anderson],                        # A::C::AnyEvent
+    RBO       => q[Robert Bohne],                         # A::C::German
+    SALVA     => q[Salvador Fandiño García],            # A::C::Spanish
     SANKO     => q[Sanko Robinson],                       # Hey, that's me!
     SAPER     => q[Sébastien Aperghis-Tramoni],          # A::C::French
     SFINK     => q[Steve A Fink],                         # A::C::Not
+    SHANTANU  => q[Shantanu Bhadoria],                    # A::C::India
     SHARIFULN => q[Анатолий Шарифулин],  # A::C::Russian
     SHARYANTO => q[Steven Haryanto],                      # A::C::Indonesian
     SHLOMIF   => q[Shlomi Fish],                          # A::C::Israeli
-    SROMANOV  => q[Сергей Романов],                       # A::C::Belarusian
+    SKIM      => q[Michal Špaček],                      # A::C::Czech
+    SROMANOV  => q[Сергей Романов],          # A::C::Belarusian
     VPIT      => q[Vincent Pit],                          # A::C::You're_using
+    WOLDRICH  => q[Magnus Woldrich],                      # A::C::Swedish
     ZOFFIX    => q[Zoffix Znet]                           # A::C::Canadian
 );
 
