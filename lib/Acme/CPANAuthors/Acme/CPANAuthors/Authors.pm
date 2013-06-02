@@ -8,7 +8,7 @@ Acme::CPANAuthors::Acme::CPANAuthors::Authors - We are CPAN authors who have aut
 
 =cut
 
-our $VERSION = q[1.0.0];
+use version; our $VERSION = version->declare('v1.0.0');
 use Acme::CPANAuthors::Register (
     ABIGAIL  => q[Abigail],          # A::C::Dutch ...or not.
     ACALPINI => q[Aldo Calpini],     # A::C::Italian
