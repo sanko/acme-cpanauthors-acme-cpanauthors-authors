@@ -1,6 +1,6 @@
 Revision history for Acme-CPANAuthors-Acme-CPANAuthors-Authors
 
-Version 1.0.0 | Saturday, June 1 2013 GMT
+v1.0.0 | Saturday, June 1 2013
 
   - Karen Etheridge (ETHER++) for A::C::Nonhuman
   - Сергей Романов (SROMANOV++) for A::C::Belarusian
@@ -14,41 +14,41 @@ Version 1.0.0 | Saturday, June 1 2013 GMT
   - Michal Špaček (SKIM) for A::C::Czech
   - Magnus Woldrich (WOLDRICH) for A::C::Swedish
 
-Version 0.1257908582 | Wednesday, Nov 11 03:03:02 2009 GMT
+v0.1257908582 | Wednesday, Nov 11 03:03:02 2009 GMT
 
   - Barbie (BARBIE) for A::C::British
   - Steven Haryanto (SHARYANTO) for A::C::Indonesian
 
-Version 0.1256760525 | Wednesday, Oct 28 16:08:45 2009 ET
+v0.1256760525 | Wednesday, Oct 28 16:08:45 2009 ET
 
   - Abigail (ABIGAIL) for A::C::Dutch
 
-Version 0.1253301444 | Friday, Sep 18 15:17:24 2009 ET
+v0.1253301444 | Friday, Sep 18 15:17:24 2009 ET
 
   - أحمد محمد زواوي - Ahmad M. Zawawi (AZAWAWI) for A::C::Arabic
   - Florian Ragwitz (FLORA) for A::C::German
   - Mons Anderson (MONS) for A::C::AnyEvent
 
-Version 0.1243261776 | Monday, May 25 10:29:36 2009 ET
+v0.1243261776 | Monday, May 25 10:29:36 2009 ET
 
   - Chris Williams (BINGOS) for A::C::POE
 
-Version 0.1240065387 | Saturday, April 18th 2009, 10:36:27 ET
+v0.1240065387 | Saturday, April 18th 2009, 10:36:27 ET
 
   - Burak Gürsoy (BURAK) for A::C::Turkish
   - Issue tracker and repo now on github
 
-Version 0.1239933158 | Thursday, April 16th 2009, 21:52:38 ET
+v0.1239933158 | Thursday, April 16th 2009, 21:52:38 ET
 
   - Luis Azevedo (BRACETA) for A::C::Portuguese
   - Last commit before moving to github (unless I get distracted and forget)
 
-Version 0.1234907192 | Tuesday February 17th 2009, 16:46:32 ET
+v0.1234907192 | Tuesday February 17th 2009, 16:46:32 ET
 
   - Vincent Pit (VPIT) for A::C::You're_using
     + Nice use of the old perl4 separator
 
-Version 0.1234567890 | Friday, February 13th 2009, 23:31:30 UTC
+v0.1234567890 | Friday, February 13th 2009, 23:31:30 UTC
 
   - ACACA exists!
   - 15 authors
