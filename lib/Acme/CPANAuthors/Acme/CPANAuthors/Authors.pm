@@ -1,6 +1,9 @@
 package Acme::CPANAuthors::Acme::CPANAuthors::Authors;
 use strict;
 use warnings;
+use utf8;
+
+=encoding utf-8
 
 =head1 NAME
 
